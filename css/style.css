@@ -5,7 +5,6 @@ body {
 }
 
 
-
 /* ---------- HEADER ---------- */
 header {
     display: flex;
@@ -89,7 +88,6 @@ header {
     margin-right: 10px;
     cursor: pointer;
 }
-
 
 
 /* ---------- SIDEBAR ---------- */
@@ -208,7 +206,6 @@ header {
 }
 
 
-
 /* ---------- MAIN ---------- */
 main {
     display: flex;
@@ -216,25 +213,28 @@ main {
     margin: 50px 35px 20px 95px;
     overflow-x: hidden;
 }
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
 .data {
     font-size: 1.25em;
     font-weight: 500;
     color: #5A5F62;
     margin: 15px 0 10px 0;
 }
-
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
     width: 100%;
 }
-
+.base-block {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0.1px gray;
+}
 
 
 /* ---------- RATING BLOCKS ---------- */
@@ -257,15 +257,10 @@ ul {
 
 /* RATING */
 .rating {
-    padding: 20px;
-    border-radius: 5px;
-    background-color: white;
     background-image: url("../img/yell.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 100%;
-    margin: 10px;
-    box-shadow: 0 0 10px 0.1px gray;
     height: 50%;
 }
 .title {
@@ -297,10 +292,6 @@ hr {
 /* GET REWARDS */
 .get-rewards {
     background-color: #1BD2C7;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 10px;
-    box-shadow: 0 0 10px 0.1px gray;
     height: 50%;
 }
 .get-rewards:hover div {
@@ -331,11 +322,6 @@ hr {
 
 /* BOARD OF LEADERS */
 .board-leaders-block {
-    background-color: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0.1px gray;
     flex-grow: 1;
 }
 .header-leaders {
@@ -388,11 +374,6 @@ hr {
 
 /* REWARDS */
 .rewards {
-    background-color: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0.1px gray;
     flex-grow: 1;
 }
 .list-rewards {
@@ -434,7 +415,6 @@ hr {
 }
 
 
-
 /* ---------- PROGRESS BLOCKS ---------- */
 .second-blocks {
     display: flex;
@@ -444,11 +424,7 @@ hr {
 
 /* PROGRESS / ATTENDANCE */
 .progress-block {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0.1px gray;
-    margin: 0 10px 10px 10px;
+    margin-top: 0;
     width: 50%;
 }
 .more-header {
@@ -489,14 +465,9 @@ hr {
 }
 
 .attendance-block {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0.1px gray;
-    margin: 0 10px 10px 10px;
+    margin-top: 0;
     width: 50%;
 }
-
 
 
 /* ---------- INFO BLOCKS ---------- */
@@ -506,11 +477,7 @@ hr {
 }
 
 .homework-block {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0.1px gray;
-    margin: 0 10px 10px 10px;
+    margin-top: 0;
     width: 33%;
 }
 .count-stat-block {
@@ -541,21 +508,13 @@ hr {
     color: red;
 }
 .tests-block {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0.1px gray;
-    margin: 0 10px 10px 10px;
+    margin-top: 0;
     width: 33%;
 }
 
 /* PAYMENT INFO */
 .payment-info-block {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0.1px gray;
-    margin: 0 10px 10px 10px;
+    margin-top: 0;
     width: 33%;
 }
 .payment-info-block:hover .card1 {
@@ -602,19 +561,14 @@ hr {
 }
 
 
-
 /* ---------- SCHEDULED BLOCKS ---------- */
 .four-blocks {
-    padding: 0 10px 10px 10px;
     display: flex;
+    padding: 0 10px 10px 10px;
 }
 
 .scheduled-block {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0.1px gray;
-    margin: 0 10px 10px 10px;
+    margin-top: 0;
     flex-grow: 1;
 }
 .list-schedule div {
@@ -623,7 +577,6 @@ hr {
 .list-schedule .data::after {
     content: " -";
 }
-
 
 
 /* ---------- MEDIA ---------- */
