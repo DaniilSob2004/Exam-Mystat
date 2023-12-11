@@ -314,6 +314,8 @@ hr {
     margin-right: 10px;
 }
 .get-rewards img {
+    width: 35x;
+    height: 35px;
     transition: all 0.15s ease-in;
 }
 
