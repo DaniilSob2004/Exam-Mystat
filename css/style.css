@@ -158,8 +158,8 @@ header {
     font-size: 2em;
 }
 .sidebar-head img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 .sidebar-menu li {
     position: relative;
@@ -235,7 +235,6 @@ ul {
     display: flex;
     max-height: 500px;
     padding: 10px;
-    background-color: aqua;
 }
 
 .info-rating {
