@@ -376,7 +376,7 @@ hr {
 
 /* REWARDS */
 .rewards {
-    flex: 1;
+    /*flex: 1;*/
 }
 .list-rewards {
     padding-right: 10px;
@@ -597,9 +597,6 @@ hr {
     }
     .info-rating {
         width: 100%;
-    }
-    .rewards {
-        flex-grow: 1;
     }
 }
 @media screen and (max-width: 800px) {
