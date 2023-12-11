@@ -247,7 +247,6 @@ ul {
     display: flex;
     flex-direction: column;
     width: 45%;
-    background-color: #aa91fc;
     height: 100%;
 }
 
@@ -345,8 +344,8 @@ hr {
 }
 .list-leaders {
     font-size: 1.15em;
+    color: #5A5F62;
     padding-right: 10px;
-    /*height: 85%;*/
     overflow: auto;
 }
 .myself {
@@ -357,9 +356,9 @@ hr {
     align-items: center;
 }
 .leader-info {
+    display: flex;
     justify-content: space-between;
     padding-bottom: 15px;
-    background-color: darkgray;
 }
 .list-leaders div img {
     width: 22px;
@@ -482,7 +481,7 @@ hr {
 }
 .count-stat-block {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #F1F6FA;
     padding: 25px 0;
 }
