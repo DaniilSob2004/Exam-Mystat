@@ -257,7 +257,6 @@ ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 100%;
-    /*height: 50%;*/
     flex: 1;
 }
 .title {
@@ -288,9 +287,10 @@ hr {
 
 /* GET REWARDS */
 .get-rewards {
-    background-color: #1BD2C7;
-    /*height: 50%;*/
+    display: flex;
+    justify-content: center;
     flex: 1;
+    background-color: #1BD2C7;
 }
 .get-rewards:hover div {
     box-shadow: 0 0 8px white;
@@ -306,7 +306,7 @@ hr {
     padding: 0px 45px;
     cursor: pointer;
     transition: all 0.15s ease-in;
-    height: 100%;
+    flex: 1;
 }
 .get-rewards span {
     color: white;
