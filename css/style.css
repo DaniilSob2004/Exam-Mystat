@@ -161,15 +161,8 @@ header {
     width: 20px;
     height: 20px;
 }
-.sidebar-menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-}
 .sidebar-menu li {
     position: relative;
-    text-align: left;
     color: lightgray;
     padding: 12px 17px;
     cursor: pointer;
@@ -242,6 +235,7 @@ ul {
     display: flex;
     max-height: 500px;
     padding: 10px;
+    background-color: aqua;
 }
 
 .info-rating {
@@ -604,22 +598,22 @@ hr {
     .second-blocks, .third-blocks {
         flex-direction: column;
         align-items: center;
+        padding: 0 20px;
     }
     .progress-block, .attendance-block, .homework-block, .tests-block, .payment-info-block {
-        width: 97%;
+        width: 100%;
     }
-    .attendance-block, .tests-block, .payment-info-block {
+    .attendance-block, .homework-block, .tests-block, .payment-info-block, .scheduled-block {
         margin-top: 10px;
     }
 }
 @media screen and (max-width: 650px) {
     .info-rating {
         flex-direction: column;
-        height: 920px;
+        height: 100%;
     }
     .board-leaders-block, .rewards {
-        height: 370px;
-        padding-bottom: 30px;
+        height: 400px;
     }
     .rating-block {
         width: 100%;
@@ -662,6 +656,3 @@ hr {
         margin: 25px 20px 20px 20px;
     }
 }
-
-
-
