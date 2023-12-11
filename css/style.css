@@ -321,7 +321,6 @@ hr {
 .board-leaders-block {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 .header-leaders {
     display: flex;
@@ -375,9 +374,6 @@ hr {
 }
 
 /* REWARDS */
-.rewards {
-    /*flex: 1;*/
-}
 .list-rewards {
     padding-right: 10px;
     height: 88%;
