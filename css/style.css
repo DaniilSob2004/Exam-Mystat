@@ -271,8 +271,7 @@ hr {
     justify-content: space-evenly;
     margin-bottom: 50px;
     padding-bottom: 30px;
-    box-sizing: border-box;
-    height: 60%;
+    height: 50%;
 }
 .rating-info div {
     display: flex;
@@ -321,7 +320,9 @@ hr {
 
 /* BOARD OF LEADERS */
 .board-leaders-block {
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 .header-leaders {
     display: flex;
@@ -344,9 +345,8 @@ hr {
 }
 .list-leaders {
     font-size: 1.15em;
-    color: #5A5F62;
     padding-right: 10px;
-    height: 85%;
+    /*height: 85%;*/
     overflow: auto;
 }
 .myself {
@@ -374,7 +374,7 @@ hr {
 
 /* REWARDS */
 .rewards {
-    flex-grow: 1;
+    flex: 1;
 }
 .list-rewards {
     padding-right: 10px;
