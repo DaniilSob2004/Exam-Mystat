@@ -354,10 +354,13 @@ hr {
 .points, .leader-info {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.points {
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 .leader-info {
-    display: flex;
-    justify-content: space-between;
     padding-bottom: 15px;
 }
 .list-leaders div img {
@@ -366,10 +369,6 @@ hr {
 }
 .user-name {
     padding-right: 12px;
-}
-.points {
-    display: flex;
-    align-items: center;
 }
 .points span {
     margin-right: 5px;
