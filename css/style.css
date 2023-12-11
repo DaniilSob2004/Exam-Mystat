@@ -248,6 +248,7 @@ ul {
     flex-direction: column;
     width: 45%;
     background-color: #aa91fc;
+    height: 100%;
 }
 
 /* RATING */
@@ -256,7 +257,8 @@ ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 100%;
-    height: 50%;
+    /*height: 50%;*/
+    flex: 1;
 }
 .title {
     font-size: 1.2em;
@@ -287,7 +289,8 @@ hr {
 /* GET REWARDS */
 .get-rewards {
     background-color: #1BD2C7;
-    height: 50%;
+    /*height: 50%;*/
+    flex: 1;
 }
 .get-rewards:hover div {
     box-shadow: 0 0 8px white;
@@ -300,9 +303,8 @@ hr {
     align-items: center;
     justify-content: center;
     border: 1px solid white;
-    padding: 15px 45px;
+    padding: 0px 45px;
     cursor: pointer;
-    box-sizing: border-box;
     transition: all 0.15s ease-in;
     height: 100%;
 }
@@ -365,7 +367,7 @@ hr {
     padding-right: 12px;
 }
 .points span {
-    /*margin-right: 5px;*/
+    margin-right: 5px;
 }
 
 /* REWARDS */
