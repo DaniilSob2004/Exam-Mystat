@@ -170,6 +170,7 @@ header {
 .sidebar-menu div {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 .sidebar-menu div:hover,
 .sidebar li:last-child a,
