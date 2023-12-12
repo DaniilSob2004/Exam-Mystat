@@ -597,6 +597,9 @@ hr {
     .info-rating {
         width: 100%;
     }
+    .rewards {
+        flex: none;
+    }
 }
 @media screen and (max-width: 800px) {
     .second-blocks, .third-blocks {
@@ -615,6 +618,9 @@ hr {
     .info-rating {
         flex-direction: column;
         height: auto;
+    }
+    .board-leaders-block {
+        flex: none;
     }
     .board-leaders-block, .rewards {
         height: 400px;
